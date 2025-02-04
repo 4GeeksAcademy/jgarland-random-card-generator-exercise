@@ -31,9 +31,10 @@ function generarCarta() {
   let paloNaipeRandom = paloNaipe[Math.floor(Math.random() * paloNaipe.length)];
   let numeroNaipeRandom = numeroNaipe[Math.floor(Math.random() * numeroNaipe.length)];
   console.log(paloNaipeRandom, numeroNaipeRandom);
-  
+
   document.getElementById("palo1").innerHTML = paloNaipeRandom;
   document.getElementById("numeroCarta").innerHTML = numeroNaipeRandom;
+  document.getElementById("palo2").innerHTML = paloNaipeRandom;
 }
 
 
