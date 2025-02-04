@@ -8,6 +8,7 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   generarCarta();
   console.log("Hello Rigo from the console!");
+  document.getElementById("botonCarta").addEventListener("click", generarCarta);
 };
 
 // Sintesis:
@@ -35,6 +36,17 @@ function generarCarta() {
   document.getElementById("palo1").innerHTML = paloNaipeRandom;
   document.getElementById("numeroCarta").innerHTML = numeroNaipeRandom;
   document.getElementById("palo2").innerHTML = paloNaipeRandom;
+
+  if (paloNaipeRandom == "♦" ||paloNaipeRandom == "♥" ) {
+    document.getElementById("palo1").style.color = "red";
+    document.getElementById("palo2").style.color = "red";
+  }else{
+    document.getElementById("palo1").style.color = "black";
+    document.getElementById("palo2").style.color = "black";
+  }
+
+
+
 }
 
 

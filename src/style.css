@@ -24,6 +24,7 @@ body{
     position: absolute;
     top: 31%;
     left: 41%;
+    align-items: center;
 }
 
 #palo2{
