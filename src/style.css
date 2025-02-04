@@ -1,5 +1,35 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: blue;
+    background: rgb(115, 115, 233);
+}
+
+.carta{
+    background: white;
+    width: 350px;
+    height: 600px;
+    border-radius: 5%;
+    position: relative;
+}
+
+#palo1{
+    font-size: 8rem;
+    position: absolute;
+    left: 1%;
+    top: -3%;
+}
+
+#numeroCarta{
+    font-size: 8rem;
+    position: absolute;
+    top: 31%;
+    left: 41%;
+}
+
+#palo2{
+    font-size: 8rem;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 74%;
+    top: 77%;
 }
